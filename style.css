@@ -74,6 +74,11 @@ body {
   .b-top-head__time {
     display: none;
   }
+  @media (max-width: 320px){
+    .b-top-head {
+    font-size: 13px;
+  }
+  }
 }
 /* header */
 .b-header {
@@ -378,13 +383,16 @@ body {
   padding-left:16px;
   padding-right:36px;
 }
+
 .b-news__twelve {
   color:#aaaab5;
   width: 95px;
 }
+
 .b-news__team {
   color:#aaaab5;
 }
+
 .b-news__team::before {
   content: "";
   display: inline-block;
@@ -395,9 +403,11 @@ body {
   padding-left:5px;
 
 }
+
 .b-news__coments {
   color:#aaaab5;
 }
+
 .b-news__coments::before {
   content: "";
   display: inline-block;
@@ -407,8 +417,8 @@ body {
   background-repeat: no-repeat;
   padding-left:7px;
 
-
 }
+
  .b-main__news-center {
   background-color: yellow;
   width: 460px;
@@ -418,3 +428,93 @@ body {
   background-color: green;
   width: 250px;
  }
+
+ .b-aside__top {
+  width: 250px;
+  height: 400px;
+  margin-bottom: 20px;
+ }
+
+ .b-aside__img {
+  width: 100%;
+ }
+
+ .b-aside__down {
+  width: 250px;
+ }
+
+ /* центральная новостная колонка */
+
+ .central_box_news {
+  position: relative;
+  width: 460px;
+  color:#fff;
+}
+
+.text {
+  position:absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding-top: 112px;
+
+}
+.category {
+  display: inline-block;
+  font-size: 14px;
+  padding-bottom:18px;
+  padding-left: 20px;
+  color:#fff;
+}
+
+.title__head {
+  padding-left: 20px;
+  font-size: 30px;
+  letter-spacing: 0.6px;
+  padding-bottom:23px;
+
+}
+
+.props {
+  font-size: 12px;
+
+}
+.date_props {
+  display: inline-block;
+  padding-left: 20px;
+}
+.time {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.time__span {
+  padding-left: 10px;
+  background-image: url(Img/time.whitepng.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+ 
+/* мобильный main */ 
+
+@media (max-width: 1030px){
+.b-main__wrap {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+}
+
+@media (max-width: 320px){
+.b-main__wrap {
+  flex-direction:column;
+}
+
+.b-aside {
+  display: flex;
+  overflow-x: scroll;
+  max-width: 280px;
+}
+
+}
