@@ -337,7 +337,7 @@ body {
   background-image: url(Img/shadow.png);
   background-repeat: repeat-x;
   padding-top: 18px;
-  padding-bottom: 12px;
+  padding-bottom: 54px;
  }
  .b-main__wrap {
   display: flex;
@@ -705,6 +705,158 @@ width: 160px;
   overflow-x: scroll;
   max-width: 280px;
 }
+}
+/* footer */ 
+.b-footer {
+  background-color: #00122f;
+}
+
+.b-footer__wrap {
+  border-bottom: 1px solid #26354e;
+  padding-bottom: 34px;
+
+}
+.b-footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 55px;
+}
+
+.b-footer__naigation {
+ 
+ 
+}
+.b-footer__list {
+  display: inline-block;
+  columns: 125px 2;
+
+}
+.b-footer__nav-link {
+  color:#fff;
+}
+.b-footer__listed {
+  padding-bottom: 15px;
+
+}
+.b-footer__listed:nth-child(5) {
+ padding-bottom: 0;
+
+}
+.b-footer__social {
+  display: flex;
+
+}
+.b-footer__social-list {
+  padding-left: 22px;
+}
+.b-footer__nav-center {
+  padding-left: 16px;
+  padding-top: 3px;
+
+}
+.b-footer__img {
+  display: inline-block;
+  padding-bottom: 15px;
+}
+.b-footer__list-center {
+  padding-left: 5px;
+}
+.b-footer__nav-center-listed {
+  padding-bottom: 14px;
+
+}
+.b-footer__nav-center-link {
+  color:#fff;
+}
+/* 
+.footer_nav a {
+
+}
+
+.wrap_outside  li {
+  display: inline-block;
+}
 
 
+
+.column_one {
+
+  line-height: 32px;
+}
+
+.column_one ul {
+  margin-top: 0;
+  columns: 125px 2;
+}
+
+.column_two ul {
+  margin-top: 0;
+}
+
+.column_two {
+
+  line-height: 32px;
+}
+
+.center_nav {
+
+  line-height: 33px;
+}
+
+.right_naw {
+
+  padding-left: 102px;
+}
+
+.social_network{
+
+}
+
+.wrap_outside li:nth-child(2) {
+  margin-right: 19px;
+}
+
+.wrap_outside li:nth-child(3) {
+ 
+margin-right: 17px;
+}
+
+.wrap_outside li:nth-child(4) { 
+  margin-right: 0;
+ 
+}
+
+.wrap_outside { 
+
+}
+
+.contact_box {
+
+  font-size: 18px;
+  letter-spacing: -0.2px;
+}
+
+.nomber a {
+    display: inline-block;
+    background-image: url(Img/telefon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+}
+
+.mail {
+    margin-top: 23px;
+    display: inline-block;
+    background-image: url(Img/mail.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+}
+
+.footer_end {
+    text-align: center;
+    color: #8d9198;
+    font-size: 14px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
