@@ -342,6 +342,7 @@ body {
  .b-main__wrap {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 
  }
 
@@ -418,6 +419,18 @@ body {
   padding-left:7px;
 
 }
+.every_news_block {
+  text-align: center;
+}
+.every_news {
+  display: inline-block;
+  text-decoration: none;
+  color: #448ccb;
+  font-size: 14px;
+  border: 1px solid #448ccb;
+  padding: 15px 50px;
+  border-radius: 25px;
+}
 
  .b-main__news-center {
   background-color: yellow;
@@ -445,13 +458,16 @@ body {
 
  /* центральная новостная колонка */
 
- .central_box_news {
+ .b-news-top {
   position: relative;
   width: 460px;
   color:#fff;
+  padding-bottom:20px;
 }
-
-.text {
+.b-news-top__img-mobil {
+  display: none;
+}
+.b-news-top__text {
   position:absolute;
   left: 0;
   top: 0;
@@ -460,7 +476,7 @@ body {
   padding-top: 112px;
 
 }
-.category {
+.b-news-top__category {
   display: inline-block;
   font-size: 14px;
   padding-bottom:18px;
@@ -468,7 +484,7 @@ body {
   color:#fff;
 }
 
-.title__head {
+.b-news-top__title {
   padding-left: 20px;
   font-size: 30px;
   letter-spacing: 0.6px;
@@ -476,17 +492,15 @@ body {
 
 }
 
-.props {
-  font-size: 12px;
-
-}
-.date_props {
+.b-news-top__date {
   display: inline-block;
   padding-left: 20px;
+   font-size: 12px;
 }
-.time {
+.b-news-top__time {
   display: inline-block;
   padding-left: 15px;
+  font-size: 12px;
 }
 
 .time__span {
@@ -495,7 +509,178 @@ body {
   background-repeat: no-repeat;
   background-position: left center;
 }
+ .b-news-middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 460px;
+  margin:0 auto;
+}
+.b-news-block {
+  width: 220px;
+  padding-bottom:18px;
+}
+.b-news:nth-child(7n) {
+  padding-bottom: 25px;
+}
+.b-news-block__props {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+ }
+ .b-news-block__category {
+  color: #aaaab5;
+ }
+ .b-news-block__time {     
+  background-image: url(Img/clockopas.png);       
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
+  color: #aaaab5;       
+}
+.b-news-block__coment {
+  padding-left: 12px;
+  background-image: url(Img/chatopas.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  color: #aaaab5; 
+}
+.b-news-block__title-discop {
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 13px;
+  
+}
+.b-news-block__img-mobil,.b-news-block__title-mobil {
+  display: none;
+}
+
+/* Нижний новостной блок */
+.b-news-down {
+  display: flex;
+}
+
+.b-news-box {
+  position: relative;
+  width: 590px;
+}
+.b-news-box__text {
+  position: absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  color:#fff;
+  padding-left: 20px;
+  padding-top:100px;
+}
+.b-news-box__categoru {
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  padding-bottom: 23px;
+}
+.b-news-box__title {
+  letter-spacing: 0.9px;
+  font-size: 30px;
+  padding-bottom:13px;
+
+}
+.b-news-box__props {
+  display: flex;
+  font-size: 12px;
+  padding-bottom:22px;
  
+}
+.b-news-box__date {
+  padding-right:20px;
+}
+
+.b-news-box__time::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-image: url(Img/clock.png);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  padding-left: 3px;
+}
+.b-news-block__text{
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0.3px;
+}
+/* правая сторона */
+.b-news-right {
+  width: 410px;
+  background-color: #fff;
+  padding-top: 26px;
+}
+
+.b-news-right__title {
+  font-size:20px;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 23px;
+   padding-left: 16px;
+  letter-spacing: 0.5px;
+}
+.b-news-container {
+    padding-top: 26px;
+    padding-left: 18px;
+    padding-bottom: 4px;
+
+}
+.b-news-container__subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  line-height: 22px;
+  padding-bottom: 11px;
+
+}
+.b-news-container__props {
+ display: flex;
+ font-size:12px;
+width: 160px;
+ justify-content: space-between
+}
+.b-news-container__category {
+  color:#000;
+}
+
+
+.b-news-container__time {
+    font-size:12px;
+}
+.b-news-container__time::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  padding-left: 10px;
+  background-image: url(Img/clockopas.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  vertical-align: middle;
+
+}
+.b-news-container__coments{
+  font-size:12px;
+  color:#000;
+  padding-left: 10px;
+}
+.b-news-container__coments::before{
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  padding-left: 5px;
+  background-image: url(Img/chatopas.png);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}  
+
 /* мобильный main */ 
 
 @media (max-width: 1030px){
@@ -507,6 +692,10 @@ body {
 }
 
 @media (max-width: 320px){
+.b-news-middle {
+  flex-direction: column;
+}
+
 .b-main__wrap {
   flex-direction:column;
 }
@@ -516,5 +705,6 @@ body {
   overflow-x: scroll;
   max-width: 280px;
 }
+
 
 }
