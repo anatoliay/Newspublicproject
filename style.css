@@ -21,6 +21,14 @@ body {
   margin: 0 auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 /* Верхняя шапка */
 
 .b-top-head {
@@ -590,6 +598,10 @@ body {
   width: 220px;
   padding-bottom:18px;
 }
+.b-news-block__img-discop {
+height:142px; 
+width:221px;
+}
 .b-news-block__title-discop {
   font-size: 14px;
   line-height: 20px;
@@ -1131,6 +1143,7 @@ width: 160px;
   .b-footer__naigation {
     padding-bottom:29px;
     border-bottom: 1px solid #26354e;
+    padding-left:23px;
 
   }
   .fixed-container-mobil {
@@ -1155,7 +1168,9 @@ width: 160px;
     display: flex;
     flex-direction: column;
   }
- 
+ .b-footer__listed {
+
+ }
  .b-footer__nav-center-listed:nth-child(2){
   padding-bottom: 0;
  }
