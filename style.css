@@ -1001,6 +1001,7 @@ body {
 .b-aside {
   display: flex;
   flex-direction: row;
+  align-items: normal;
   overflow-x: scroll;
   width: 500px;
   max-width: 280px;
