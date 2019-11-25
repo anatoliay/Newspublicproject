@@ -1320,6 +1320,7 @@ body {
 }
 
 .b-footer__list {
+  width: 270px;
   display: inline-block;
   -webkit-columns: 120px 2;
      -moz-columns: 120px 2;
