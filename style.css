@@ -1328,6 +1328,7 @@ body {
 }
 
 .b-footer__list-center {
+  width: 270px;
   -webkit-columns: 120px 2;
      -moz-columns: 120px 2;
           columns: 120px 2;
