@@ -1321,15 +1321,15 @@ body {
 
 .b-footer__list {
   display: inline-block;
-  -webkit-columns: 20px 2;
-     -moz-columns: 20px 2;
-          columns: 20px 2;
+  -webkit-columns: 120px 2;
+     -moz-columns: 120px 2;
+          columns: 120px 2;
 }
 
 .b-footer__list-center {
-  -webkit-columns: 20px 2;
-     -moz-columns: 20px 2;
-          columns: 20px 2;
+  -webkit-columns: 120px 2;
+     -moz-columns: 120px 2;
+          columns: 120px 2;
 }
 
 .b-footer__list-inner {
