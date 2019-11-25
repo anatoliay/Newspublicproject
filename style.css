@@ -1183,9 +1183,9 @@ body {
 
 .b-footer__list {
   display: inline-block;
-  -webkit-columns: 10px 2;
-     -moz-columns: 10px 2;
-          columns: 10px 2;
+  -webkit-columns: 120px 2;
+     -moz-columns: 120px 2;
+          columns: 120px 2;
 }
 
 .b-footer__nav-link {
